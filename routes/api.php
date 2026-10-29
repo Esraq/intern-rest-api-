@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-
+Route::apiResource('student','App\Http\Controllers\API\StudentController');
 
 ///Route::apiResource('product','App\Http\Controllers\API\ProductController');
 

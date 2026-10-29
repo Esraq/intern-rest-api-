@@ -107,8 +107,9 @@ class ProductController extends Controller
             
         
         );
-  
-        Product::whereId($id)->update($form_data);
+
+
+      Product::whereId($id)->update($form_data);
 
         return response("updated");
     }
